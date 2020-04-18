@@ -20,9 +20,12 @@ Our goal is to build a Gutenberg-ready theme that can support web mentions and I
 
 ### WordPress
 * [Blog Tool, Publishing Platform, and CMS — WordPress.org](https://wordpress.org)
+- [Download | WordPress.org](https://wordpress.org/download/)
+- [Developer Resources](https://developer.wordpress.org/)
+- [Block editor handbook](https://developer.wordpress.org/block-editor/)
+
 * [Outil de blog, plateforme de publication et CMS. | WordPress.org Français](https://fr.wordpress.org/)
 - [Télécharger | WordPress.org Français](https://fr.wordpress.org/download/)
-- [Download | WordPress.org](https://wordpress.org/download/)
 
 ### Webmention
 * [Webmention.io](https://webmention.io/)
@@ -57,16 +60,36 @@ Here is the full list of additional plugins –
 9. [WebSub/PubSubHubbub](https://wordpress.org/plugins/pubsubhubbub/)
 10. [Classic Editor](https://wordpress.org/plugins/classic-editor/)
 
-## Web Development tools
 
-These are suggested tools and which to install will depend on your personal preference or platform requirements.
+## Other WordPress plugins
+ - [Advanced Custom Fields](https://www.advancedcustomfields.com/)
+ - [WordFence](https://www.wordfence.com/)
 
-- [https://prepros.io/](Prepos)
-- [https://codekitapp.com/](Codekit)
-- [https://stylelint.io/](stylelint)
-- [https://www.npmjs.com/](npm)
-- [https://nodejs.org/en/download/](nodejs)
-- [https://brew.sh/](Brew, macOS package manager)
-- [https://chocolatey.org/](Chocolatey, windows package manager) 
+## WordPress themes
+- [Twenty Twenty](https://wordpress.org/themes/twentytwenty/)
+- [Sempress](https://wordpress.org/themes/sempress/) 
+
+## Optional Web Development tools
+
+These are suggested tools and which to install will depend on your personal preference or platform requirements.  
+
+### Sass
+We use Sass for partials. Otherwise we're sticking to regular CSS. 
+
+You can compile the scss files by command line or with Prepos or Codekit. 
+
+- [Prepos](https://prepros.io/)
+- [Codekit](https://codekitapp.com/)
+- [Sass](https://sass-lang.com/guide)
+- [stylelint](https://stylelint.io/)
+
+### Node
+- [npm](https://www.npmjs.com/)
+- [nodejs](https://nodejs.org/en/download/)
+
+### Package managers
+
+- [Brew, macOS package manager](https://brew.sh/)
+- [Chocolatey, windows package manager](https://chocolatey.org/) 
 
 
