@@ -1,0 +1,63 @@
+.standfirst {
+  font-size: var(--font-size-xx-large);
+  line-height: var(--line-height-alt);
+}
+
+.lede {
+  font-size: var(--font-size-large);
+  line-height: var(--line-height-alt);
+}
+
+
+.display {
+  font-family: var(--font-family-display);
+}
+
+.thin {
+  font-weight: var(--font-weight-thin);
+}
+
+.extra-light {
+  font-weight: var(--font-weight-extra-light);
+}
+
+.light {
+  font-weight: var(--font-weight-light);
+}
+
+.regular {
+  font-weight: var(--font-weight);
+}
+
+.medium {
+  font-weight: var(--font-weight-medium);
+}
+
+.bold {
+  font-weight: var(--font-weight-bold);
+}
+
+.extra-bold {
+  font-weight: var(--font-weight-extra-bold);
+}
+
+.black {
+  font-weight: var(--font-weight-black);
+}
+
+.italic {
+  font-style: italic;
+}
+
+.l-article .standfirst {
+  font-family: clarendon-text-pro, serif;
+}
+
+.l-article article {
+  max-width: 75ch;
+}
+
+
+.l-article article .p-name {
+  margin-bottom: 0;
+}

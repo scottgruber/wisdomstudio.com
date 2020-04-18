@@ -1,0 +1,63 @@
+# WordPress Files to not include in the repo
+wp-config.php
+
+# ignore everything in the "wp-content" directory, except:
+"mu-plugins", "plugins", "themes" directory
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/themes/
+
+
+# ignore node dependency directories
+node_modules/
+
+# ignore all files starting with . or ~
+.*
+~*
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+.DS_Store
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore editor files
+.config.codekit3
+config.codekit3
+
+# -------------------------
+# BEGIN Whitelisted Files
+# -------------------------
+
+# track these files, if they exist
+!.gitignore
+!README.md
+!CHANGELOG.md
+!package.json
+!package-lock.json
+!.stylelintrc.json
+!.stylelintignore
+
+# track favicon files, if they exist
+!android-chrome-*.png
+!apple-touch-icon*.png
+!browserconfig.xml
+!favicon*.png
+!favicon*.ico
+!manifest.json
+!mstile-*.png
+!safari-pinned-tab.svg
+!site.webmanifest
+
+
+# Phase two files ignores wordpress from repository.  
+# ignore everything in the root except the "wp-content" directory.
+
+# !wp-content/
+# wp-config.php
+

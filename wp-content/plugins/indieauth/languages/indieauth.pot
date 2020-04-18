@@ -1,0 +1,686 @@
+# Copyright (C) 2019 IndieWebCamp WordPress Outreach Club
+# This file is distributed under the MIT.
+msgid ""
+msgstr ""
+"Project-Id-Version: IndieAuth 3.4.2\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/wordpress-indieauth\n"
+"POT-Creation-Date: 2019-08-08 03:49:41+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/class-indieauth-admin.php:25
+msgid ""
+"In order to ensure IndieAuth tokens will work please visit the settings "
+"page to check:"
+msgstr ""
+
+#: includes/class-indieauth-admin.php:26
+msgid "Visit Settings Page"
+msgstr ""
+
+#: includes/class-indieauth-admin.php:32
+msgid ""
+"Multiple user accounts have the same URL set. This is not permitted as this "
+"value is used by IndieAuth for login. Please resolve"
+msgstr ""
+
+#: includes/class-indieauth-admin.php:39
+msgid "IndieAuth Test"
+msgstr ""
+
+#: includes/class-indieauth-admin.php:47
+msgid "Authorization Header Passed"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "IndieAuth"
+msgstr ""
+
+#: includes/class-indieauth-admin.php:55
+msgid ""
+"Your hosting provider allows authorization headers to pass so IndieAuth "
+"should work"
+msgstr ""
+
+#: includes/class-indieauth-admin.php:63
+msgid "Authorization Test Failed"
+msgstr ""
+
+#: includes/class-indieauth-admin.php:66
+msgid ""
+"Authorization Headers are being blocked by your hosting provider. This will "
+"cause IndieAuth to fail."
+msgstr ""
+
+#: includes/class-indieauth-admin.php:68
+msgid "Visit the Settings page for guidance on how to resolve."
+msgstr ""
+
+#: includes/class-indieauth-admin.php:78 templates/indieauth-settings.php:68
+msgid "None"
+msgstr ""
+
+#: includes/class-indieauth-admin.php:87
+msgid "Website"
+msgstr ""
+
+#: includes/class-indieauth-admin.php:135
+msgid "Authorization Header Found. You should be able to use all clients."
+msgstr ""
+
+#: includes/class-indieauth-admin.php:138
+msgid "Alternate Header Found. You should be able to use all clients."
+msgstr ""
+
+#: includes/class-indieauth-admin.php:168
+msgid "Offer IndieAuth on Login Form"
+msgstr ""
+
+#: includes/class-indieauth-admin.php:178
+msgid "User Who is Represented by the Site URL"
+msgstr ""
+
+#: includes/class-indieauth-admin.php:186 templates/indieauth-settings.php:2
+msgid "IndieAuth Settings"
+msgstr ""
+
+#: includes/class-indieauth-admin.php:199
+msgid ""
+"Based on your feedback and to improve the user experience, we decided to "
+"move the settings to a separate <a href=\"%1$s\">settings-page</a>."
+msgstr ""
+
+#: includes/class-indieauth-admin.php:272
+msgid "Overview"
+msgstr ""
+
+#: includes/class-indieauth-admin.php:274
+msgid ""
+"IndieAuth is a way for doing Web sign-in, where you use your own homepage "
+"to sign in to other places."
+msgstr ""
+
+#: includes/class-indieauth-admin.php:275
+msgid ""
+"IndieAuth was built on ideas and technology from existing proven "
+"technologies like OAuth and OpenID but aims at making it easier for users "
+"as well as developers. It also decentralises much of the process so "
+"completely separate implementations and services can be used for each part."
+msgstr ""
+
+#: includes/class-indieauth-admin.php:282
+msgid "The IndieWeb"
+msgstr ""
+
+#: includes/class-indieauth-admin.php:284
+msgid "The IndieWeb is a people-focused alternative to the \"corporate web\"."
+msgstr ""
+
+#: includes/class-indieauth-admin.php:286
+msgid "Your content is yours"
+msgstr ""
+
+#: includes/class-indieauth-admin.php:287
+msgid ""
+"When you post something on the web, it should belong to you, not a "
+"corporation. Too many companies have gone out of business and lost all of "
+"their users’ data. By joining the IndieWeb, your content stays yours and in "
+"your control."
+msgstr ""
+
+#: includes/class-indieauth-admin.php:290
+msgid "You are better connected"
+msgstr ""
+
+#: includes/class-indieauth-admin.php:291
+msgid ""
+"Your articles and status messages can go to all services, not just one, "
+"allowing you to engage with everyone. Even replies and likes on other "
+"services can come back to your site so they’re all in one place."
+msgstr ""
+
+#: includes/class-indieauth-admin.php:294
+msgid "You are in control"
+msgstr ""
+
+#: includes/class-indieauth-admin.php:295
+msgid ""
+"You can post anything you want, in any format you want, with no one "
+"monitoring you. In addition, you share simple readable links such as "
+"example.com/ideas. These links are permanent and will always work."
+msgstr ""
+
+#: includes/class-indieauth-admin.php:301
+msgid "For more information:"
+msgstr ""
+
+#: includes/class-indieauth-admin.php:302
+msgid "<a href=\"https://indieweb.org/IndieAuth\">IndieWeb Wiki page</a>"
+msgstr ""
+
+#: includes/class-indieauth-admin.php:303
+msgid "<a href=\"https://indieauth.rocks/\">Test suite</a>"
+msgstr ""
+
+#: includes/class-indieauth-admin.php:304
+msgid "<a href=\"https://www.w3.org/TR/indieauth/\">W3C Spec</a>"
+msgstr ""
+
+#: includes/class-indieauth-authorization-endpoint.php:69
+msgid "Legacy Scope (Deprecated)"
+msgstr ""
+
+#: includes/class-indieauth-authorization-endpoint.php:70
+msgid "Allows the application to create posts and upload to the Media Endpoint"
+msgstr ""
+
+#: includes/class-indieauth-authorization-endpoint.php:71
+msgid "Allows the application to update posts"
+msgstr ""
+
+#: includes/class-indieauth-authorization-endpoint.php:72
+msgid "Allows the application to delete posts"
+msgstr ""
+
+#: includes/class-indieauth-authorization-endpoint.php:73
+msgid "Allows the application to undelete posts"
+msgstr ""
+
+#: includes/class-indieauth-authorization-endpoint.php:74
+msgid "Allows the application to upload to the media endpoint"
+msgstr ""
+
+#: includes/class-indieauth-authorization-endpoint.php:76
+msgid "Allows the application read access to channels"
+msgstr ""
+
+#: includes/class-indieauth-authorization-endpoint.php:77
+msgid "Allows the application to manage a follow list"
+msgstr ""
+
+#: includes/class-indieauth-authorization-endpoint.php:78
+msgid "Allows the application to mute and unmute users"
+msgstr ""
+
+#: includes/class-indieauth-authorization-endpoint.php:79
+msgid "Allows the application to block and unlock users"
+msgstr ""
+
+#: includes/class-indieauth-authorization-endpoint.php:80
+msgid "Allows the application to manage channels"
+msgstr ""
+
+#: includes/class-indieauth-authorization-endpoint.php:81
+msgid "Allows the application to save content for later retrieval"
+msgstr ""
+
+#: includes/class-indieauth-authorization-endpoint.php:83
+msgid ""
+"Returns a complete profile to the application. Without this only a display "
+"name, avatar, and url will be returned"
+msgstr ""
+
+#: includes/class-indieauth-authorization-endpoint.php:88
+msgid "No Description Available"
+msgstr ""
+
+#: includes/class-indieauth-authorization-endpoint.php:98
+msgid "Unsupported Response Type"
+msgstr ""
+
+#: includes/class-indieauth-authorization-endpoint.php:104
+#: includes/class-indieauth-authorization-endpoint.php:149
+#. translators: Name of missing parameter
+msgid "Missing Parameter: %1$s"
+msgstr ""
+
+#: includes/class-indieauth-authorization-endpoint.php:156
+#: includes/class-indieauth-authorize.php:145
+#: includes/class-indieauth-token-endpoint.php:207
+msgid "Invalid authorization code"
+msgstr ""
+
+#: includes/class-indieauth-authorization-endpoint.php:161
+msgid "The authorization code expired"
+msgstr ""
+
+#: includes/class-indieauth-authorization-endpoint.php:169
+#: includes/class-indieauth-authorization-endpoint.php:173
+#: includes/class-indieauth-token-endpoint.php:212
+#: includes/class-indieauth-token-endpoint.php:216
+msgid "Failed PKCE Validation"
+msgstr ""
+
+#: includes/class-indieauth-authorization-endpoint.php:189
+msgid ""
+"There was an error verifying the authorization code. Check that the "
+"client_id and redirect_uri match the original request."
+msgstr ""
+
+#: includes/class-indieauth-authorize.php:111
+msgid "User Not Found on this Site"
+msgstr ""
+
+#: includes/class-indieauth-authorize.php:127
+#: includes/class-indieauth-token-endpoint.php:100
+msgid "Invalid access token"
+msgstr ""
+
+#: includes/class-indieauth-client-discovery.php:14
+msgid "Failed to Retrieve IndieAuth Client Details "
+msgstr ""
+
+#: includes/class-indieauth-debug.php:92
+msgid "Could Not Find Token"
+msgstr ""
+
+#: includes/class-indieauth-debug.php:98
+msgid "No User is Currently Set"
+msgstr ""
+
+#: includes/class-indieauth-debug.php:105
+msgid "A Successful Auth Response was Given yet No User is Currently Set"
+msgstr ""
+
+#: includes/class-indieauth-debug.php:113
+msgid ""
+"You have passed a permissions test but somehow the system is still not "
+"showing you as logged in"
+msgstr ""
+
+#: includes/class-indieauth-token-endpoint.php:90
+msgid ""
+"Bearer Token Not Supplied or Server Misconfigured to Not Pass Token. Run "
+"diagnostic script in WordPress Admin \n"
+"\t\t\t\tIndieAuth Settings Page"
+msgstr ""
+
+#: includes/class-indieauth-token-endpoint.php:128
+msgid "The Token Provided is No Longer Valid"
+msgstr ""
+
+#: includes/class-indieauth-token-endpoint.php:135
+msgid "Invalid Request"
+msgstr ""
+
+#: includes/class-indieauth-token-endpoint.php:142
+msgid "The request is missing one or more required parameters"
+msgstr ""
+
+#: includes/class-indieauth-token-endpoint.php:198
+msgid ""
+"This authorization code was issued with no scope, so it cannot be used to "
+"obtain an access token"
+msgstr ""
+
+#: includes/class-indieauth-token-endpoint.php:200
+msgid "There was an error issuing the access token"
+msgstr ""
+
+#: includes/class-indieauth-token-ui.php:33
+#: includes/class-indieauth-token-ui.php:104
+msgid "Manage IndieAuth Tokens"
+msgstr ""
+
+#: includes/class-indieauth-token-ui.php:33
+msgid "Manage Tokens"
+msgstr ""
+
+#: includes/class-indieauth-token-ui.php:48
+msgid "Invalid Nonce"
+msgstr ""
+
+#: includes/class-indieauth-token-ui.php:51
+msgid "Add IndieAuth Token"
+msgstr ""
+
+#: includes/class-indieauth-token-ui.php:53
+msgid "A Name Must be Set for Your Token"
+msgstr ""
+
+#: includes/class-indieauth-token-ui.php:65
+msgid ""
+"A token has been generated and appears below. This token will not be stored "
+"anywhere. Please copy and store it."
+msgstr ""
+
+#: includes/class-indieauth-token-ui.php:113
+msgid "Add Token"
+msgstr ""
+
+#: includes/class-indieauth-token-ui.php:115
+msgid "Name for Token"
+msgstr ""
+
+#: includes/class-indieauth-token-ui.php:118
+msgid "Scopes"
+msgstr ""
+
+#: includes/class-indieauth-token-ui.php:120
+msgid "Add New Token"
+msgstr ""
+
+#: includes/class-token-list-table.php:11
+msgid "Client Name"
+msgstr ""
+
+#: includes/class-token-list-table.php:12
+msgid "Client Icon"
+msgstr ""
+
+#: includes/class-token-list-table.php:13
+msgid "Client ID"
+msgstr ""
+
+#: includes/class-token-list-table.php:14
+msgid "Scope"
+msgstr ""
+
+#: includes/class-token-list-table.php:15
+msgid "Issue Date"
+msgstr ""
+
+#: includes/class-token-list-table.php:16
+msgid "Last Accessed"
+msgstr ""
+
+#: includes/class-token-list-table.php:17
+msgid "Expires"
+msgstr ""
+
+#: includes/class-token-list-table.php:23
+#: includes/class-token-list-table.php:144
+msgid "Revoke"
+msgstr ""
+
+#: includes/class-token-list-table.php:24
+msgid "Revoke Tokens Last Accessed 1 Year Ago or Never"
+msgstr ""
+
+#: includes/class-token-list-table.php:25
+msgid "Revoke Tokens Last Accessed 1 Month Ago or Never"
+msgstr ""
+
+#: includes/class-token-list-table.php:26
+msgid "Revoke Tokens Last Accessed 1 Week Ago or Never"
+msgstr ""
+
+#: includes/class-token-list-table.php:27
+msgid "Revoke Tokens Last Accessed 1 Day Ago or Never"
+msgstr ""
+
+#: includes/class-token-list-table.php:28
+msgid "Revoke Tokens Last Accessed 1 Hour Ago or Never"
+msgstr ""
+
+#: includes/class-token-list-table.php:29
+msgid "Clean Up Expired Tokens and Authorization Codes"
+msgstr ""
+
+#: includes/class-token-list-table.php:145
+msgid "Retrieve Information"
+msgstr ""
+
+#: includes/class-token-list-table.php:148
+msgid "Not Provided"
+msgstr ""
+
+#: includes/class-token-list-table.php:163
+#: includes/class-token-list-table.php:177
+msgid "Never"
+msgstr ""
+
+#: includes/class-token-list-table.php:169
+#: includes/class-token-list-table.php:183
+#. translators: Human time difference ago
+msgid "%s ago"
+msgstr ""
+
+#: includes/class-web-signin.php:28
+msgid "<strong>ERROR</strong>: Could not discover endpoints"
+msgstr ""
+
+#: includes/class-web-signin.php:53
+msgid "Did Not Receive a Valid Authorization Endpoint"
+msgstr ""
+
+#: includes/class-web-signin.php:80
+msgid "The authorization endpoint did not return a JSON response"
+msgstr ""
+
+#: includes/class-web-signin.php:89
+msgid ""
+"There was an error verifying the authorization code, the authorization "
+"server return an expected response"
+msgstr ""
+
+#: includes/class-web-signin.php:113
+msgid "IndieAuth Server did not return the same state parameter"
+msgstr ""
+
+#: includes/class-web-signin.php:116
+msgid "Cannot Find IndieAuth Endpoint Cookie"
+msgstr ""
+
+#: includes/class-web-signin.php:135
+msgid "The domain does not match the domain you used to start the authentication."
+msgstr ""
+
+#: includes/class-web-signin.php:139
+msgid "Your have entered a valid Domain, but you have no account on this blog."
+msgstr ""
+
+#: includes/class-web-signin.php:164
+msgid "<strong>ERROR</strong>: The URL field is empty."
+msgstr ""
+
+#: includes/class-web-signin.php:168
+msgid "<strong>ERROR</strong>: The password field is empty."
+msgstr ""
+
+#: includes/class-web-signin.php:182
+msgid "<strong>ERROR</strong>: Invalid URL."
+msgstr ""
+
+#: includes/class-web-signin.php:184 includes/class-web-signin.php:205
+msgid "Lost your password?"
+msgstr ""
+
+#: includes/class-web-signin.php:201
+#. translators: %s: url
+msgid ""
+"<strong>ERROR</strong>: The password you entered for the URL %s is "
+"incorrect."
+msgstr ""
+
+#: includes/class-web-signin.php:224 includes/class-web-signin.php:230
+msgid "Username, Email Address, or URL"
+msgstr ""
+
+#: includes/class-web-signin.php:247
+msgid "Invalid User Profile URL"
+msgstr ""
+
+#: templates/authdiagfail.php:3
+msgid "Authorization has Failed"
+msgstr ""
+
+#: templates/authdiagfail.php:5
+msgid ""
+"The authorization header was not returned on this test, which means that "
+"your server may be stripping the Authorization header. This is needed for "
+"IndieAuth to work correctly."
+msgstr ""
+
+#: templates/authdiagfail.php:6
+msgid "If you are on Apache, try adding this line to your .htaccess file:"
+msgstr ""
+
+#: templates/authdiagfail.php:9
+msgid "If that doesnt work, try this:"
+msgstr ""
+
+#: templates/authdiagfail.php:12
+msgid ""
+"If that does not work either, you may need to ask your hosting provider to "
+"reconfigure to allow the Authorization header to be passed. If they refuse, "
+"you can pass it through Apache with an alternate name. The plugin searches "
+"for the header in REDIRECT_HTTP_AUTHORIZATION, as some FastCGI "
+"implementations store the header in this location."
+msgstr ""
+
+#: templates/authdiagtest.php:4
+msgid "Authorization Header Test"
+msgstr ""
+
+#: templates/indieauth-authenticate-form.php:4
+#: templates/indieauth-authenticate-form.php:36
+msgid "Authenticate"
+msgstr ""
+
+#: templates/indieauth-authenticate-form.php:14
+msgid ""
+"The app <strong>%1$s</strong> would like to sign you in as "
+"<strong>%2$s</strong>."
+msgstr ""
+
+#: templates/indieauth-authenticate-form.php:22
+#: templates/indieauth-authorize-form.php:28
+msgid ""
+"<strong>Warning</strong>: The redirect URL this app is using does not match "
+"the domain of the client ID."
+msgstr ""
+
+#: templates/indieauth-authenticate-form.php:37
+#: templates/indieauth-authorize-form.php:58
+msgid "Cancel"
+msgstr ""
+
+#: templates/indieauth-authenticate-form.php:40
+msgid "You will be redirected to <code>%1$s</code> after authenticating."
+msgstr ""
+
+#: templates/indieauth-authorize-form.php:4
+#: templates/indieauth-authorize-form.php:57
+msgid "Authorize"
+msgstr ""
+
+#: templates/indieauth-authorize-form.php:16
+msgid ""
+"The app <strong>%1$s</strong> would like to access your site, "
+"<strong>%2$s</strong> using the credentials of <strong>%3$s</strong> (%4$s)."
+msgstr ""
+
+#: templates/indieauth-authorize-form.php:33
+msgid ""
+"The app is requesting the following <a "
+"href=\"https://indieweb.org/scope\">scopes</a>"
+msgstr ""
+
+#: templates/indieauth-authorize-form.php:61
+msgid ""
+"You will be redirected to <code>%1$s</code> after authorizing this "
+"application."
+msgstr ""
+
+#: templates/indieauth-settings.php:12
+msgid "Test your System"
+msgstr ""
+
+#: templates/indieauth-settings.php:13
+msgid ""
+"If you are experiencing unauthorized as an error, click below to run a test "
+"script."
+msgstr ""
+
+#: templates/indieauth-settings.php:14
+msgid "Diagnostic Script"
+msgstr ""
+
+#: templates/indieauth-settings.php:21
+msgid ""
+"With IndieAuth, you can use your blog, to log into sites like the "
+"IndieWeb-Wiki."
+msgstr ""
+
+#: templates/indieauth-settings.php:27
+msgid "Endpoints"
+msgstr ""
+
+#: templates/indieauth-settings.php:31
+msgid "Authorization Endpoint:"
+msgstr ""
+
+#: templates/indieauth-settings.php:35
+msgid "Token Endpoint:"
+msgstr ""
+
+#: templates/indieauth-settings.php:43 templates/websignin-link.php:3
+msgid "Web Sign-In"
+msgstr ""
+
+#: templates/indieauth-settings.php:45
+msgid ""
+"Enable Web Sign-In for your blog, so others can use IndieAuth or RelMeAuth "
+"to log into this site."
+msgstr ""
+
+#: templates/indieauth-settings.php:51
+msgid "Use IndieAuth login"
+msgstr ""
+
+#: templates/indieauth-settings.php:57
+msgid "Add a link to the login form to authenticate using an IndieAuth endpoint."
+msgstr ""
+
+#: templates/indieauth-settings.php:62
+msgid "Set User to Represent Site URL"
+msgstr ""
+
+#: templates/indieauth-settings.php:75
+msgid "Set a User who will represent the URL of the site"
+msgstr ""
+
+#: templates/websignin-form.php:4
+msgid "Sign in with your website"
+msgstr ""
+
+#: templates/websignin-form.php:11
+msgid "Sign in with your domain"
+msgstr ""
+
+#: templates/websignin-form.php:12
+msgid "https://example.com"
+msgstr ""
+
+#: templates/websignin-form.php:19
+msgid "Sign in"
+msgstr ""
+
+#: templates/websignin-form.php:21
+msgid "Learn about Web Sign-in"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/indieweb/wordpress-indieauth/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"IndieAuth is a way to allow users to use their own domain to sign into "
+"other websites and services"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "IndieWebCamp WordPress Outreach Club"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://indieweb.org/WordPress_Outreach_Club"
+msgstr ""

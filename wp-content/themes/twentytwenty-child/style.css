@@ -1,0 +1,25 @@
+/*
+Theme Name: WisdomStudio Twenty Twenty Child Theme
+Theme URI: https://www.wisdomstudio.com
+Description: Wisdom Studio Child theme for Twenty Twenty.
+Author: Scott Gruber & Stéphane Tchakounté
+Author URI: https://github.com/scottgruber/wisdomstudio.com.git
+Template: twentytwenty
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Tags: indieweb, gutenberg, responsive-layout, accessibility-ready
+*/
+
+body {
+  background: #93c779;
+  font-family: 'Merriweather', serif;
+}
+
+.post-meta .post-author {
+  display: none;
+}
+
+.powered-by-wordpress {
+  display: none;
+}
